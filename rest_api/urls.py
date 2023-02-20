@@ -20,5 +20,5 @@ from django.urls import re_path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('blog.urls')),
-    # re_path(r'^auth/', include('drf_social_oauth2.urls', namespace='drf'))
+    re_path(r'^auth/', include('drf_social_oauth2.urls', namespace='drf')),
 ]

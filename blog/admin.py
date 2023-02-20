@@ -1,8 +1,8 @@
 from django.contrib import admin
-from blog.models import UserProfile, Product, Order, Detail, Account, HighScore
+from blog.models import UserProfile, Product, Order, Detail, Account, HighScore, Snippet
 # Register your models here.
 
-# admin.site.register(User)
+admin.site.register(Snippet)
 admin.site.register(UserProfile)
 admin.site.register(Product)
 admin.site.register(Order)
